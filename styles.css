@@ -7,7 +7,11 @@
   }
  .topcontent {
     position: relative;
-    padding: 110px 35px 28px 45px;
+    padding: 110px 20px 50px 15px;
+ }
+ .formcontent {
+    position: relative;
+    padding: 10px 10px 10px 15px;
  }
 .sidenav {
     height: 100%;
@@ -20,4 +24,8 @@
     overflow-x: hidden;
     padding-top: 20px;
   }
+.footer {
+    position: relative;
+    padding: 110px 20px 50px 15px;
+}
  
