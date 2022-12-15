@@ -29,6 +29,9 @@
 }
 .firstname, .lastname, .email, .phone, .password, .confirmpassword {
   padding-top: 15px;
+  box-sizing: border-box;
+  display: inline-block;
+  border-radius: 4px;
 }
 label {
   float: left;
