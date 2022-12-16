@@ -1,23 +1,37 @@
+html, body {
 
-
-.body {
-  font-family: "Josefin Sans", sans-serif;
-  
+    width: 100%;
+    height: 100%;
+    background:rgba(124, 23, 23, 0.5); 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100; /* Just to keep it at the very top */
+    background-image: linear-gradient(rgb(77, 87, 233), rgb(159, 98, 167));
 }
 .main {
     margin-left: 300px; /* Same as the width of the sidebar */
     padding: 0px 10px;
+    font-family: 'Nunito', sans-serif;
   }
  .topcontent {
     position: relative;
     padding-top: 110px;
-    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+   
+   
  }
  .formcontent {
     display: inline-block;
     position: relative;
-    width: 90%;
-    font-family: 'Courier New', Courier, monospace;
+    max-width: 700px;
+    font-size: medium;
+    
+ }
+ .dothis {
+  font-size: larger;
+  color: aliceblue;
+  font-weight: 600;
  }
 #signupform {
   display: flex;
@@ -25,13 +39,13 @@
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  resize: vertical;
+  background-color: rgba(34, 24, 170, 0.384);
+  color: aliceblue;
 }
 .firstname, .lastname, .email, .phone, .password, .confirmpassword {
   padding-top: 15px;
-  box-sizing: border-box;
-  display: inline-block;
-  border-radius: 4px;
+
+  
 }
 label {
   float: left;
@@ -46,14 +60,17 @@ label {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(168, 167, 167);
+    background-color: rgb(129, 122, 122);
     overflow-x: hidden;
-    padding-top: 20px;
+    overflow: hidden;
+    background-image: linear-gradient(rgb(77, 87, 233), rgb(159, 98, 167));
+   
   }
+  
 
   button[type=submit] {
-    background-color: #04AA6D;
-    color: white;
+    background-color: #3464bd;
+    color: rgb(0, 0, 0);
     padding: 20px 20px 20px 20px;
     margin: 25px 0;
     border: none;
@@ -61,6 +78,10 @@ label {
     cursor: pointer;
   }
   
+  button[type=submit]:hover {
+    background-color: #8b15c2;
+  }
+
 .footer {
     position: relative;
     padding: 10px 20px 50px 15px;
